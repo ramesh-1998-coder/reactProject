@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav{
+  color: white;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.nav--image {
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;    /* Makes it a circle */
+  object-fit: cover;     /* Ensures the image fills the circle without distortion */
+}
+
+.card{
+  padding: 10px;
+  margin:auto;
+  display: flex;
+  height: 400px;
+  width: 800px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card--image{
+  height: 300px;
+  width:300px;
+
+}
+
+.card--details{
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  
+}
+
+.location--img{
+  height: 20px;
+}
+
+.map--row{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  justify-content: left;
+ 
+  
+}
+
+.card--country{
+  padding-right: 10px;
+}
+
+
+.card--title{
+  padding: 0px;
+  padding: 0px;
+  margin: 0px;
+  align-items: left;
+  justify-content: left;
+}
+
+.card--dates{
+  font-weight: bold;
+}
+
+.card--maptext{
+   text-decoration: underline;
+}
